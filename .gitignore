@@ -1,8 +1,5 @@
 parse_photo/upload
 
-parse_photo/data_photos.json
-parse_photo/data_photos.txt
-
 .idea
 
 # Byte-compiled / optimized / DLL files

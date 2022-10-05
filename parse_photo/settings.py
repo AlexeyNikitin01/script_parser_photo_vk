@@ -1,6 +1,4 @@
-DIR_UPLOAD_FILE = 'upload\\'
-
-FILE_DATA_JSON = 'data_photos.json'
+FILE_DATA_JSON = ''
 
 TOKEN_APP = ''  # Request from VK APP
 
@@ -8,10 +6,10 @@ TOKEN_ACCESS = ''  # Request from VK
 
 V = '5.131'
 METHOD = 'photos.get'
-OWNER_ID = 102303417
+OWNER_ID = int()
 ALBUM_ID = 'saved'
 PHOTO_SIZE = 1
-COUNT = 560
+COUNT = int()
 OFFSET = 0
 
 URL_ALL_PHOTOS_VK = f'https://api.vk.com/method/{METHOD}?access_token={TOKEN_ACCESS}&v={V}&owner_id={OWNER_ID}' \
